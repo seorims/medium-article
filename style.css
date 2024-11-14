@@ -1,0 +1,121 @@
+.banner {
+  background-image: url('cat.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  color: #291720;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text {
+  display: block;
+  margin-bottom: 40px;
+  margin-left: 220px;
+}
+
+.container {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+h1 {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: -20px;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: -10px;
+}
+
+a {
+color: #F45D01;
+}
+
+a:hover {
+color: #474647;
+transition: all 0.3s ease;
+}
+
+@media (max-width: 1024px) {
+  .banner {
+    height: 350px; /* Smaller banner for tablets */
+  }
+
+  .banner-text {
+    margin-left: 140px; /* Reduce margin for better alignment on smaller screens */
+  }
+
+  h1 {
+    font-size: 2.5em; /* Slightly smaller heading on tablets */
+  }
+
+  h2 {
+    font-size: 1.3em; /* Slightly smaller subheading on tablets */
+  }
+
+  h3 {
+    font-size: 1.8em; /* Smaller font for subheadings */
+  }
+
+  p {
+    font-size: 1.1em; /* Slightly bigger font for readability on tablets */
+  }
+}
+
+/* Media Query for Smartphones (max-width: 600px) */
+@media (max-width: 600px) {
+  .banner {
+    height: 250px; /* Even smaller banner for mobile screens */
+  }
+
+  .banner-text {
+    margin-left: 20px; /* Less margin to keep text centered */
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 2em; /* Smaller heading for mobile */
+  }
+
+  h2 {
+    font-size: 1.2em; /* Smaller subheading for mobile */
+  }
+
+  h3 {
+    font-size: 1.5em; /* Smaller subheading for mobile */
+  }
+
+  p {
+    font-size: 1em; /* Default font size for mobile */
+  }
+
+  /* Adjusting link size for mobile */
+  a {
+    font-size: 1.1em;
+  }
+}
